@@ -1,1 +1,92 @@
 # Mimz-web
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Mimz - Escola Bressol</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background-color: #f9f9fb;
+      color: #333;
+    }
+
+    header {
+      background-color: #a8dadc;
+      color: #1d3557;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    nav {
+      background-color: #457b9d;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #1d3557;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      background-color: #e63946;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #1d3557;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mimz</h1>
+  <p>Escola bressol amb amor i confiança</p>
+</header>
+
+<nav>
+  <a href="#inici">Inici</a>
+  <a href="#contacte">Contacte</a>
+</nav>
+
+<section id="inici">
+  <h2>Benvinguts</h2>
+  <p>Un espai segur, creatiu i ple d’afecte per al desenvolupament dels més petits.</p>
+</section>
+
+<section id="contacte">
+  <h2>Contacte</h2>
+  <p>📞 Telèfon: 123 456 789</p>
+  <p>📧 Email: mimz@gmail.com</p>
+  <a href="https://wa.me/34600000000" class="btn">Contacta per WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2026 Mimz - Escola Bressol</p>
+</footer>
+
+</body>
+</html>
